@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<ul>
+    <li>@Html.ActionLink("laptop", "Details", "Products", new { acer = "laptop" }, null )</li>
+    <li>@Html.ActionLink("tablet", "Details", "Products", new { acer = "tablet" }, null)</li>
+    <li>@Html.ActionLink("desktop", "Details", "Products", new { acer = "desktop" }, null)</li>
+</ul>
